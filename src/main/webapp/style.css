@@ -1,0 +1,93 @@
+* {
+	text-align: center;	
+}
+
+html, body{
+	height:100%;
+}
+
+html{
+	background-image: linear-gradient(to bottom right, #66bbff, #ffffff, #ffffff);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	font-family: 'Handjet', cursive;
+	font-size: 1.3em;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #66bbff;
+}
+
+table{
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #66bbff;
+	margin-bottom: 50px;
+}
+
+th, td{
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #66bbff;
+}
+
+a{
+	color: #66bbff;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #66bbff;
+}
+
+.lType1, .lType2 {
+	border: 1px solid #66bbff;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px #66bbff;
+	margin-bottom: 50px;
+}
+
+.lType1{
+	margin-bottom: 50px;
+}
+
+.bType1{
+	color: #66bbff;
+	padding: 10px;
+	box-shadow: 0px 0px 10px #66bbff;
+	border-radius: 10px;
+}
+
+.bType2{
+	font-family: 'Handjet', cursive;
+	font-size: 1.3em;
+	font-weight: 400;
+	background-color: transparent;
+	color: #66bbff;
+	padding: 20px;
+	border: none;
+	box-shadow: 0px 0px 10px #66bbff;
+	border-radius: 10px;
+	outline: none;
+}
+
+.yes:hover{
+	animation-name: toBlue;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes toBlue{
+	0% {background-color: #66bbff; color:#ffffff}
+	50%{background-color: #ffffff; color:#66bbff}
+	100%{background-color: #66bbff; color: #ffffff;}	
+}

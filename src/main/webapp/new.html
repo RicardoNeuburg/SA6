@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Agendamentos - Home</title>
+	<link rel="icon" href="https://cdn4.iconfinder.com/data/icons/origami-23/64/Cat_origami_paper_craft_creative-256.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Cadastrar novo agendamento</h1>
+		<form name="frmClient" action="insert">
+			<table>
+				<tr>
+					<th>Data</th>
+					<td>
+						<input type="date" name="date" class="bType2" placeholder="data">
+					</td>
+				</tr>
+				<tr>
+					<th>Horário</th>
+					<td>
+						<input type="time" name="time" class="bType2" placeholder="horário">
+					</td>
+				</tr>
+				<tr>
+			</table>
+			<input type="button" value="Adicionar" class="bType2 yes" onclick="validator()">
+			<a href="main" class="bType2 yes">Voltar</a>
+		</form>
+	</div>
+	<script src="scripts/validator.js"></script>
+</body>
+
+</html>
